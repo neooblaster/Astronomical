@@ -1,7 +1,7 @@
 {
   "name": "Astronomical",
   "version": "v0.0.1-dev",
-  "description": "HAML-like template engine for PHP 5.3",
+  "description": "An dedicated PHP engine for astronomical calculations based on formulae provide by Jean Meeus",
   "keywords": ["Astronomical"],
   "homepage": "https://github.com/neooblaster/Astronomical",
   "type": "library",
