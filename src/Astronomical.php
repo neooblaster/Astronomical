@@ -53,9 +53,9 @@ class Astronomical
      *
      * @return bool
      */
-    public function hello($a=true)
+    public function hello($arg=true)
     {
-        if($a){
+        if($arg){
             return true;
         } else {
             return false;
