@@ -11,9 +11,9 @@
     <filter>
         <!-- Tags : whitelist, blacklist with children directory, file, exclude -->
         <whitelist
-                processUncoveredFilesFromWhiteList="true"
-                addUncoveredFilesFromWhitelist="true">
-            <directory>./tests</directory>
+                processUncoveredFilesFromWhiteList="false"
+                addUncoveredFilesFromWhitelist="false">
+            <directory suffix=".php">./src</directory>
         </whitelist>
     </filter>
 

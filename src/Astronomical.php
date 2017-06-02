@@ -48,4 +48,17 @@ namespace Astronomical;
  */
 class Astronomical
 {
+    /**
+     * A simply method to check if covering works with settings for PHPUnit
+     *
+     * @return bool
+     */
+    public function hello($a=true)
+    {
+        if($a){
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

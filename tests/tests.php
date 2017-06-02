@@ -26,10 +26,16 @@
  *
  * @return void
  */
+use Astronomical\Astronomical;
+
+require_once "src/Astronomical.php";
+
 class AstronomicalTest extends PHPUnit_Framework_TestCase
 {
     public function testX()
     {
-        $this->assertEquals(0, 0);
+        $as = new Astronomical();
+        $this->assertEquals(true, $as->hello());
+        $this->assertEquals(false, $as->hello(false));
     }
 }
