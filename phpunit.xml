@@ -4,12 +4,17 @@
     <testsuites>
         <testsuite name="suiteName">
             <!-- Tags : directory, file, exclude -->
-            <file>tests/tests.php</file>
+            <file>./tests/tests.php</file>
         </testsuite>
     </testsuites>
 
     <filter>
         <!-- Tags : whitelist, blacklist with children directory, file, exclude -->
+        <whitelist
+                processUncoveredFilesFromWhiteList="true"
+                addUncoveredFilesFromWhitelist="true">
+            <directory>./tests</directory>
+        </whitelist>
     </filter>
 
     <logging>
