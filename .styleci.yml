@@ -6,12 +6,8 @@ preset: psr2
 risky: false
 
 enabled:
-  - long_array_syntax
-  - strict
-  - unalign_double_arrow
     
 disabled:
-  - short_array_syntax
     
 finder:
     # Tags : exclude, depth, [not-](name, contains, path)
