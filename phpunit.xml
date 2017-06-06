@@ -19,6 +19,7 @@
 
     <logging>
         <!-- Tags : log -->
+        <log type="coverage-html" target="coverage"/>
     </logging>
 
 </phpunit>

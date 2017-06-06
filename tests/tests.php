@@ -28,7 +28,7 @@
  */
 use Astronomical\Astronomical;
 
-require_once "src/Astronomical.php";
+require_once "src/Astronomical/Astronomical.php";
 
 class AstronomicalTest extends PHPUnit_Framework_TestCase
 {
