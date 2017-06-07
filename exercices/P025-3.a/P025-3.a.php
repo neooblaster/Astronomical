@@ -18,6 +18,15 @@
     $y = $y2 + ($interval / 2) * ($a + $b + ($interval * $c));
 
 echo <<<Pxxxyz
+Context : 
+
+    f(x) = (......)
+    
+    x is Time and we are looking for known date.
+    y = f(x) is value we want to get
+    
+    
+
 From table (3.2), calculate the distance of Mars to Earth on 1992 November 8, at 4h21m TD.
 
 Table 3.2 :

@@ -5,3 +5,7 @@ machine:
 dependencies:
   pre:
     - composer require phpunit/phpunit:4.8.0
+
+test:
+  override:
+    - ./vendor/phpunit/phpunit/phpunit --coverage-text

@@ -1,5 +1,5 @@
 <pre>
-<h1>Astronomical Exercice y.z, Page xxx</h1><h2><a href="./">Parent</a></h2>
+<h1>Astronomical Exercise 1.a, Page 008</h1><h2><a href="./">Parent</a></h2>
 <?php
 
     $onhour = 9 + (14/60) + (55.8/3600);

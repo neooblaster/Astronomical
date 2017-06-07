@@ -1,5 +1,5 @@
 <pre>
-<h1>Astronomical Exercice 3.b, Page 025</h1><h2><a href="./">Parent</a></h2>
+<h1>Astronomical Exercise 3.b, Page 025</h1><h2><a href="./">Parent</a></h2>
 <?php
 /**
   * Var calcultation :
@@ -25,6 +25,15 @@
     $exday = 16 + $day;
 
 echo <<<Pxxxyz
+Context : 
+
+    f(x) = (......)
+    
+    x is the time we want to find where...
+ ...y is the second value we want to find
+     
+     
+
 Calculate the time of passage of Mars through the perihelion in May 1992, and the value of its radius vector at that instant
 
 The following values for the distance Sun-Mars have been calculated at intervals of four days :
@@ -39,9 +48,11 @@ The differences are
                                 c = $c
     b = $b
     
-Extreme value formulas :
+Extreme value formula :
 
     ym = y2 - ((a + b)² / 8 * c)
+    
+Corresponding value of the argument x formula : 
     
     nm = -1 * ((a + b) / (2 * c))
     
