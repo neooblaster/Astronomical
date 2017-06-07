@@ -5,7 +5,7 @@
     f(x) = (......)
     
     x is the time we want to find where...
- ...y is the second value we want to find
+    ...y is the second value we want to find
      
      
 ## Exercise :
