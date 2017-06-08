@@ -37,23 +37,25 @@ Possible class structure :
             * nm = - ( (a + b) / 2c )
             
             
-# Formulas
+# I. Interpolation :: Formulas
 
-## Interpolation :: Interpolated value with known factor
+## Interpolation :: Three tabular values
+
+### Interpolation :: Interpolated value with known factor
 
     y = y2 + (n / 2)(a + b + nc)
     
-## Interpolation :: Interpolation value with unknown factor
+### Interpolation :: Interpolation value with unknown factor
 
-### Interpolated value :
+#### Interpolated value :
 
     ym = y2 - ( (a + b)² / 8c )
     
-### Interpolation factor :
+#### Interpolation factor :
 
     nm = -1 * (a + b) / 2c
     
-## Interpolation :: Interpolation factor when value is zero
+### Interpolation :: Interpolation factor when value is zero
 
 Excellent when, the function is 'almost a straight line'
 
@@ -63,5 +65,40 @@ When the curvature of the function is important, use of the formula may require 
 
     Δn0 = -1 ( (2y2 + n0(a + b + cn0) ) / (a + b + 2cn0) )
     
+    Δn0 = n0 - n0-1
+    
+    n0 = -1 ( (2y2 + n0(a + b + cn0) ) / (a + b + 2cn0) ) + n0-1
+    
 The calculation should be repeated, using the new value of n0 unit n0 no longer varies.
+
+## Interpolation :: Five tabular values
+
+
+              n             n²       n(n² - 1)            n²(n² - 1)
+    y = y3 + --- (B + C) + ---- F + -----------(H + J) + ------------ K
+              2             2            12                   24
+    
+      
+              Bn + Cn      Fn²      Hn^3 + Jn^3 - Hn - Jn     Kn^4 - Kn²
+    y = y3 + --------- + ------- + ----------------------- + ------------
+                 2          2               12                    24
+    
+                 
+              Bn     Cn     Fn²     Hn^3     Jn^3     Hn     Jn     Kn^4     Kn²
+    y = y3 + ---- + ---- + ----- + ------ + ------ - ---- - ---- + ------ - -----
+              2      2       2       12       12      12     12      24      24
+    
+    
+                 B     C     H      J           F     K              H      J              K
+    y = y3 + n( --- + --- - ---- - ----) + n²( --- - ---- ) + n^3 ( ---- + ---- ) + n^4 ( ---- )
+                 2     2     12     12          2     24             12     12             24
+                 
+                 
+                 B + C     H + J            12F - K             H + J             K
+    y = y3 + n( ------- - ------- ) + n² ( --------- ) + n^3 ( ------- ) + n^4 ( ---- )
+                   2        12                 24                12               24
+
+qsdqsd
+              
+              
 

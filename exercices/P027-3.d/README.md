@@ -79,7 +79,8 @@ Starting with n0 = 0, below successively results :
     Iteration 10 = -0.26086742574847
     
 Results are not those which was expected in books.
-Something is missing in explanation
+Something is missing in explanation.
+
 With these two values I find one explanation :
 
     Iteration 01 = -1.5
