@@ -18,8 +18,12 @@ php:
 # ----------------------- #
 # --- Build LifeCycle --- #
 # ----------------------- #
+before_script:
+  # Install Astronomical with 'require-dev' package
+  - composer install --dev --no-interaction --prefer-source
+
 script:
-  - phpunit --verbose --coverage-text --coverage-clover coverage.xml
+  - vendor/bin/phpunit --verbose --coverage-text --coverage-clover coverage.xml
 
 after_script:
   - vendor/bin/test-reporter --coverage-report coverage.xml

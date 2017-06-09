@@ -1,0 +1,12 @@
+# Ignore Vendor Folder
+vendor/*
+
+# Ignore Rendered documentation by phpdocumentor
+docs/*
+
+# Ignore HTML Coverage report
+coverage/*
+coverage.xml
+
+# Ignore Composer files
+composer.lock
