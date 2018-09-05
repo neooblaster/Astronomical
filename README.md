@@ -1,6 +1,6 @@
 # Astronomicals
 
-Astronomicals is a PHP Engine which contains all astronomical formulae from Astronomical Algorithm book wrote by Jean Meeus.
+Astronomicals is a PHP Engine which contains all astronomical formulas from **Astronomical Algorithms** book wrote by Jean Meeus.
 
 Statuts :
 

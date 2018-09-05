@@ -1,5 +1,11 @@
+# Ignore IDEA folder
+.idea/*
+
 # Ignore Vendor Folder
 vendor/*
+
+# Ignore Docker logs
+docker/log/docker.log
 
 # Ignore Rendered documentation by phpdocumentor
 docs/*
